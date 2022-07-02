@@ -1,0 +1,189 @@
+.el-carousel__item h3 {
+  color: #475669;
+  font-size: 14px;
+  opacity: 0.75;
+  line-height: 32px;
+  margin: 0;
+}
+
+.el-carousel__item:nth-child(2n) {
+  background-color: rgb(219, 211, 190);
+}
+
+.el-carousel__item:nth-child(2n+1) {
+  background-color: rgb(219, 211, 190);
+}
+/* 内容 */
+#bannerworld{
+  width: 1170px;
+  /* text-align: center; */
+  background-color: #fff;
+  margin: 0 auto;
+  line-height: 36px;
+}
+.pic img{
+  display: block;
+  margin: 0 auto;
+  width: 1170px;
+  /* width: 1320px; */
+}
+.world{
+  text-align: center;
+}
+/* 折叠面板 */
+.el-collapse-item__header{
+  width: 200px;
+}
+/* .el-collapse-item__content{
+  width: 200px;
+}
+.el-carousel__item__wrap{
+  width: 200px;
+}
+.el-collapse-content-7663{
+  width: 200px;
+} */
+
+/* 主内容 */
+.content{
+  width: 1170px;
+  height: 1700px;
+}
+.left{
+  width: 200px;
+  height: 600px;
+  float: left;
+  margin-top: 30px;
+}
+
+.right{
+  float: right;
+  width: 970px;
+  /* height: 1200px; */
+}
+
+
+/* 复制 */
+.right .products{
+  margin-top: 30px;
+  width: 300px;
+  height: 500px;
+  background-color: #fff;
+  text-align: center;
+  float: left;
+  margin-left: 16px;
+}
+.right div img{
+    width: 230px;
+    height: 230px;
+} 
+.right .products b{
+  display: block;
+  margin-top: 20px;
+  font-size: 17px;
+  line-height: 14px;
+}
+.right .products div .sub-name{
+  display: block;
+  font-size: 12px;
+  color: #a9a9a9;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  white-space:nowrap;
+}
+.right .products div .price{
+  display: block;
+  font-size: 18px;
+  color: #000;
+  margin-top: 20px;
+}
+/* 下拉框 */
+.el-input__inner{
+  display: block;
+  border-radius: 20px;
+  text-align: center;
+  border-radius: 20px;
+  color: #fff;
+}
+.incar{
+  margin: 0 auto;
+  width: 220px;
+  text-align: center;
+  border-radius: 20px;
+  height: 30px;
+}
+.incar input{
+  background-color: black;
+  color: #fff;
+  width: 220px;
+  height: 36px;
+  cursor:pointer;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.incar input:hover{
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  border: 1px solid black;
+}
+
+/* 内容商品详情 */
+.one{
+  width: 1000px;
+  height: 500px;
+  /* margin-top: 30px; */
+}
+.one .products{
+width: 310px;
+margin-left: 10px;
+height: 540px;
+background-color: #fff;
+text-align: center;
+float: left;
+margin-top: 30px;
+}
+.one div img{
+  width: 250px;
+  height: 250px;
+} 
+.one .products b{
+display: block;
+margin-top: 20px;
+font-size: 14px;
+line-height: 14px;
+}
+.one .products div .sub-name{
+display: block;
+font-size: 12px;
+color: #a9a9a9;
+margin-top: 10px;
+margin-bottom: 20px;
+overflow: hidden;
+width: 250px;
+margin-left: 20px;
+white-space: nowrap;
+text-overflow: ellipsis;
+}
+.one .products div .price{
+display: block;
+font-size: 18px;
+color: #000;
+margin-top: 20px;
+}
+.tow{
+width: 1000px;
+  height: 500px;
+  margin-top: 30px;
+}
+
+.el-range-editor.is-active{
+width: 200px;
+}
+.el-range-editor.is-active{
+width: 200px;
+}
+.el-input.is-active .el-input__inner{
+width: 200px;
+}

@@ -19,7 +19,7 @@
       <!-- 折叠面板 -->
       <div class="left">
         <el-collapse v-model="activeNames" @change="handleChange">
-          <el-collapse-item title="产品类型" name="1">
+          <!-- <el-collapse-item title="产品类型" name="1">
             <el-checkbox-group v-model="checkList">
               <el-checkbox label="专业清洁"></el-checkbox><br>
               <el-checkbox label="爽肤水/美容液"></el-checkbox><br>
@@ -46,9 +46,9 @@
             <el-checkbox label="精锐防护系列"></el-checkbox><br>
             <el-checkbox label="纯净沁润系列"></el-checkbox><br>
             <el-checkbox label="澄光肌活系列"></el-checkbox>
-          </el-collapse-item>
+          </el-collapse-item> -->
           <el-collapse-item title="价格" name="4">
-            <el-slider class="demonstration" v-model="adus" range :min="390" :max="7160">
+            <el-slider class="demonstration" v-model="adus" range :min="1440" :max="7160">
             </el-slider>
           </el-collapse-item>
         </el-collapse>
@@ -96,58 +96,58 @@ export default{
             ],
             date:[
               {
-                src:require('@/assets/img/绿眼霜双支装.webp'),
-                name:'HR赫莲娜绿宝瓶眼霜双支装',
-                subname:'~',
-                price:'¥1440'
-              },
-              {
-                src:require('@/assets/img/绿宝瓶绿眼霜绿宝瓶保湿亮眸礼盒.webp'),
-                name:'HR赫莲娜绿宝瓶保湿亮眸礼盒',
-                subname:'~',
-                price:'¥2300'
-              },
-              {
-                src:require('@/assets/img/HR赫莲娜睫毛膏卸妆液.webp'),
-                name:'HR赫莲娜睫毛膏卸妆液',
-                subname:'ALL MASCARAS MAKE-UP REMOVER',
-                price:'¥390'
-              },
-              // 分割线 第二pa
-              {
-                src:require('@/assets/img/绿宝瓶轻乳霜绿宝瓶水亮润泽礼盒.webp'),
-                name:'HR赫莲娜绿宝瓶水亮润泽礼盒',
-                subname:'~',
-                price:'¥3030'
-              },
-              {
                 src:require('@/assets/img/高光精华高光安瓶至美密集抗老套装.webp'),
                 name:'HR赫莲娜至美密集抗老套装',
                 subname:'~',
                 price:'¥6360'
-              },{
+              },
+              {
                 src:require('@/assets/img/小针管黑绷带充盈抚纹礼盒.webp'),
                 name:'充盈抚纹礼盒',
                 subname:'~',
                 price:'¥7160'
               },
-
               {
-                src:require('@/assets/img/眼部精华高光眼霜耀目淡纹礼盒.webp'),
-                name:'耀目淡纹礼盒',
+                src:require('@/assets/img/小露水高光精华至美光耀莹润礼盒.webp'),
+                name:'至美光耀莹润礼盒',
                 subname:'~',
-                price:'¥2540'
+                price:'¥3130'
+              },
+              // 分割线 第二pa
+              {
+                src:require('@/assets/img/镭射精华高光防晒淡斑防晒礼盒.webp'),
+                name:'淡斑防晒礼盒',
+                subname:'~',
+                price:'¥3830'
               },
               {
-                src:require('@/assets/img/高光精华高光眼霜高光乳眼霜套装.webp'),
-                name:'HR赫莲娜高光精华乳眼霜套装',
+                src:require('@/assets/img/新肌水绿宝瓶面膜绿宝瓶净化维稳礼盒.webp'),
+                name:'绿宝瓶净化维稳礼盒',
                 subname:'~',
-                price:'¥3100'
+                price:'¥2400'
               },{
-                src:require('@/assets/img/绿宝瓶全明星系列.webp'),
-                name:'绿宝瓶全明星礼盒',
+                src:require('@/assets/img/新肌水轻乳霜绿宝瓶轻感水润礼盒.webp'),
+                name:'绿宝瓶轻感水润礼盒',
                 subname:'~',
-                price:'¥4500'
+                price:'¥2700'
+              },
+
+              {
+                src:require('@/assets/img/洁面小露珠水感焕亮礼盒.webp'),
+                name:'水感焕亮礼盒',
+                subname:'~',
+                price:'¥2030'
+              },
+              {
+                src:require('@/assets/img/强韧修护明星礼盒.webp'),
+                name:'强韧修护明星礼盒',
+                subname:'~',
+                price:'¥4860'
+              },{
+                src:require('@/assets/img/沁润修护礼盒.webp'),
+                name:'沁润修护礼盒',
+                subname:'~',
+                price:'¥4230'
               },
             ],
             checkList: ['选中且禁用','复选框 A'],

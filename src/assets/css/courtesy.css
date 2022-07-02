@@ -1,0 +1,32 @@
+.el-carousel__item h3 {
+    color: #475669;
+    font-size: 14px;
+    opacity: 0.75;
+    line-height: 32px;
+    margin: 0;
+  }
+  
+  .el-carousel__item:nth-child(2n) {
+    background-color: rgb(219, 211, 190);
+  }
+  
+  .el-carousel__item:nth-child(2n+1) {
+    background-color: rgb(219, 211, 190);
+  }
+/* 内容 */
+#bannerworld{
+  width: 1170px;
+  text-align: center;
+  background-color: #fff;
+  margin: 0 auto;
+  line-height: 36px;
+}
+.pic img{
+    display: block;
+    margin: 0 auto;
+    width: 1170px;
+    /* width: 1320px; */
+  }
+.banner{
+    width: 1170px;
+}

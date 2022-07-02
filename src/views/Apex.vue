@@ -48,7 +48,7 @@
             <el-checkbox label="澄光肌活系列"></el-checkbox>
           </el-collapse-item>
           <el-collapse-item title="价格" name="4">
-            <el-slider class="demonstration" v-model="adus" range :min="390" :max="7160">
+            <el-slider class="demonstration" v-model="adus" range :min="380" :max="7160">
             </el-slider>
           </el-collapse-item>
         </el-collapse>
@@ -96,58 +96,58 @@ export default{
             ],
             date:[
               {
-                src:require('@/assets/img/绿眼霜双支装.webp'),
-                name:'HR赫莲娜绿宝瓶眼霜双支装',
-                subname:'~',
-                price:'¥1440'
+                src:require('@/assets/img/黑绷带面霜.jpg'),
+                name:'HR赫莲娜活颜修护舒缓滋养晚霜',
+                subname:'REPLASTY AGE RECOVERY ACCELERATING NIGHT CARE',
+                price:'¥3580'
               },
               {
-                src:require('@/assets/img/绿宝瓶绿眼霜绿宝瓶保湿亮眸礼盒.webp'),
-                name:'HR赫莲娜绿宝瓶保湿亮眸礼盒',
-                subname:'~',
-                price:'¥2300'
+                src:require('@/assets/img/绿宝瓶pro.webp'),
+                name:'HR赫莲娜绿宝瓶强韧修护精华露',
+                subname:'POWERCELL SKINMUNITY REINFORCING SERUM',
+                price:'¥1580'
               },
               {
-                src:require('@/assets/img/HR赫莲娜睫毛膏卸妆液.webp'),
-                name:'HR赫莲娜睫毛膏卸妆液',
-                subname:'ALL MASCARAS MAKE-UP REMOVER',
-                price:'¥390'
+                src:require('@/assets/img/绿宝瓶眼霜.webp'),
+                name:'绿宝瓶亮采精灵眼部精华乳',
+                subname:'POWERCELL 24H EYE CARE',
+                price:'¥720'
               },
               // 分割线 第二pa
               {
-                src:require('@/assets/img/绿宝瓶轻乳霜绿宝瓶水亮润泽礼盒.webp'),
-                name:'HR赫莲娜绿宝瓶水亮润泽礼盒',
-                subname:'~',
-                price:'¥3030'
+                src:require('@/assets/img/镭射淡斑精华.webp'),
+                name:'HR赫莲娜净白淡斑精华乳',
+                subname:'REPLASTY LASERIST CREAM IN SERUM',
+                price:'¥2880'
               },
               {
-                src:require('@/assets/img/高光精华高光安瓶至美密集抗老套装.webp'),
-                name:'HR赫莲娜至美密集抗老套装',
-                subname:'~',
-                price:'¥6360'
+                src:require('@/assets/img/绷带眼膜.webp'),
+                name:'HR赫莲娜活颜修护舒缓眼膜',
+                subname:'RE-PLASTY AGE RECOVERY EYE PATCH',
+                price:'¥1680'
               },{
-                src:require('@/assets/img/小针管黑绷带充盈抚纹礼盒.webp'),
-                name:'充盈抚纹礼盒',
-                subname:'~',
-                price:'¥7160'
+                src:require('@/assets/img/绿宝瓶新肌水.webp'),
+                name:'HR赫莲娜绿宝瓶强韧修护精萃液',
+                subname:'POWERCELL SKINMUNITY ESSENCE',
+                price:'¥1250'
               },
 
               {
-                src:require('@/assets/img/眼部精华高光眼霜耀目淡纹礼盒.webp'),
-                name:'耀目淡纹礼盒',
-                subname:'~',
-                price:'¥2540'
+                src:require('@/assets/img/高光精华.webp'),
+                name:'HR赫莲娜至美琉光恒采精华乳',
+                subname:'PRODIGY CELLGLOW CONCENTRATE',
+                price:'¥1680'
               },
               {
-                src:require('@/assets/img/高光精华高光眼霜高光乳眼霜套装.webp'),
-                name:'HR赫莲娜高光精华乳眼霜套装',
-                subname:'~',
-                price:'¥3100'
+                src:require('@/assets/img/高光安瓶.webp'),
+                name:'HR赫莲娜至美琉光恒采密集焕颜精华液',
+                subname:'PRODIGY CELLGLOW THE ULTIMATE CELLIXIR',
+                price:'¥4680'
               },{
-                src:require('@/assets/img/绿宝瓶全明星系列.webp'),
-                name:'绿宝瓶全明星礼盒',
-                subname:'~',
-                price:'¥4500'
+                src:require('@/assets/img/高光防晒.webp'),
+                name:'「高光」防晒乳',
+                subname:'PRODIGY CELLGLOW UV FLUID',
+                price:'¥950'
               },
             ],
             checkList: ['选中且禁用','复选框 A'],

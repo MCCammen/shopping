@@ -1,0 +1,35 @@
+/* 品牌故事PC_02.webp */
+#pice{
+    width: 1170px;
+    background-color: #ccc;
+    /* height: 1400px; */
+    margin: 0 auto;
+
+}
+.el-carousel__item h3 {
+    color: #475669;
+    font-size: 14px;
+    opacity: 0.75;
+    line-height: 32px;
+    margin: 0;
+  }
+  
+  .el-carousel__item:nth-child(2n) {
+    background-color: rgb(219, 211, 190);
+  }
+  
+  .el-carousel__item:nth-child(2n+1) {
+    background-color: rgb(219, 211, 190);
+  }
+.world{
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+    background-color: rgb(219, 211, 190);
+}
+#pice div img{
+    width: 1170px;
+    /* margin: 0 auto; */
+    /* margin-top: 10px; */
+    margin-top: -10px;
+}

@@ -1,0 +1,236 @@
+
+#app {
+    font-family: deng,STHeiti,Arial;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* text-align: center; */
+    color: #2c3e50;
+    font-family: deng,STHeiti,Arial;
+  }
+  a{
+    text-decoration:none;
+    color: #000;
+  }
+  #nav {
+    margin: 0 auto;
+    /* box-shadow: 0px 0.2px 0px 0px; */
+    height: 36px;
+    padding-top: 20px;
+  }
+  #na{
+    width: 1170px;
+    margin: 0 auto;
+  }
+  #na a {
+    width: 90px;
+    float: left;
+    font-size: 18px;
+    color: #2c3e50;
+    text-decoration:none;
+    margin-right: 40px;
+  }
+  #logo{
+    margin: 0 auto;
+    padding-right: 50px;
+    width: 1100px;
+  }
+  #logo img{
+    width: 177px;
+    /* margin: 0 auto; */
+    padding-left: 430px;
+  }
+  #left{
+      float: left;
+      position: absolute;
+  }
+  #left span{
+    height: 100px;
+    line-height: 100px;
+    padding-right: 20px;
+    font-size: 14px;
+  }
+  #right{
+      float:right;
+  }
+  #right span{
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    padding-left: 20px;
+    font-size: 14px;
+    color: #000;
+  }
+  #right span:active{
+    color: red;
+  }
+  #right span img{
+    line-height: 22px;
+    height: 22px;
+    width: 22px;
+    padding: 0;
+  }
+  #find{
+    background-color: #edd6ad;
+    border-radius: 30px;
+    border: 1px solid #edd6ad;
+    float: right;
+    width: 200px;
+    height: 30px;
+    margin-right: 40px;
+    line-height: 30px;
+    position: relative;
+  }
+  #find:hover{
+    background-color: #f7eee1;
+  }
+  #find img{
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 170px;
+    float: right;
+    position: absolute;
+  }
+  #find input{
+    background-color: #edd6ad;
+    border-radius: 30px;
+    border: 1px solid #edd6ad;
+    /* float: right; */
+    width: 200px;
+    height: 27px;
+    margin-right: 40px;
+    line-height: 27px;
+    /* position: absolute; */
+  }
+  #find input:hover{
+    background-color: #f7eee1;
+    /* border: 1px solid #edd6ad; */
+  }
+  .bottem{
+      background-color: #f7eee1;
+  }
+  .bottem .bottem1{
+    height: 170px;
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    padding-left: 120px;
+  }
+  .bottem1 div{
+   flex: 1;
+   height: 90px;
+   position: relative;
+  }
+  .bottem1 div img{
+    width: 80px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    position: absolute;
+  }
+  .bottem1 .car{
+    float: left;
+  }
+  .bottem1 .world{
+    float: left;
+  }
+  .bottem1 .lift{
+    float: left;
+  }
+  .bottem1 .erweima{
+    float: left;
+  }
+  .bottem1 div div{
+    float: left;
+    height: 20px;
+    width: 140px;
+    margin-top: 110px;
+    text-align: center;
+  }
+  .bottem1 div div span:first-child{
+    font-size: 16px;
+  }
+  .bottem1 div div span:last-child{
+    font-size: 12px;
+  }
+.bottem2{
+    background-color: #000;
+}
+.bottem2 div{
+    height: 300px;
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+/* .bottem2 div:first-child{
+    height: 20px;
+} */
+.bottem2 div>div{
+    /* flex: 1; */
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    flex-direction: column;
+    font-size: 12px;
+}
+.bottem2 div>div>div:first-child{
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.bottem2 div>div>div input{
+    margin-left: -40px;
+    border-radius: 20px;
+    background-color: #fffaf1;
+    width: 180px;
+    height: 30px;
+    padding-left: 10px;
+    /* text-align: center; */
+}
+.bottem2 div>div>div>div{
+    position: absolute;
+    border-radius: 0px 20px 20px 0px;
+    background-color: #edd6ad;
+    margin-top: 2px;
+    height: 32px;
+    margin-left: 109px;
+    float: right;
+    width: 45px;
+}
+.bottem2 div>div>div>div img{
+    width: 18px;
+    height: 20px;
+    margin-top: 6px;
+    margin-left: 12px;
+}
+/* .content{
+  width: 450px;
+  height: 380px;
+  margin: 0 auto;
+}
+.content .right{
+  float: right;
+}
+.one{
+  width: 100%;
+  margin-top: 10px;
+}
+.two{
+  margin-top: 20px;
+  width: 50%;
+}
+.three{
+  margin-top: 20px;
+  width: 100%;
+  float: left;
+}
+.three .l{
+  width: 50%;
+  float: left;
+}
+.three .r{
+  float: right;
+}
+.name{
+  margin-top: 100px;
+} */

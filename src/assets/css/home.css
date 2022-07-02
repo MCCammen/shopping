@@ -1,0 +1,174 @@
+.el-carousel__item h3 {
+    color: #475669;
+    font-size: 14px;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0.75;
+    line-height: 150px;
+    margin: 0;
+  }
+  .el-carousel__item:nth-child(2n) {
+     background-color: #99a9bf;
+  }
+  .el-carousel__item:nth-child(2n+1) {
+     background-color: #d3dce6;
+  }
+  .block{
+    margin: 0 auto;
+    width: 1170px;
+    padding-top: 20px;
+  }
+  .banner{
+    width: 1320px;
+  } 
+  #hot{
+    width: 1170px;
+    margin: 0 auto;
+  }
+  #hot .hot_product{
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+  }
+  #hot .tab{
+    margin: 0 auto;
+  }
+
+/* 标签页的商品 */
+#one{
+    width: 1920px;
+    height: 500px;
+    margin-top: 30px;
+    /* background-color: #000000; */
+}
+#one .the_product{
+  margin-left: 20px;
+  width: 364px;
+  height: 500px;
+  background-color: #fff;
+  text-align: center;
+  float: left;
+}
+#one div img{
+    width: 260px;
+    height: 260px;
+} 
+#one .the_product b{
+  display: block;
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 14px;
+}
+#one .the_product div .sub-name{
+  display: block;
+  font-size: 12px;
+  color: #a9a9a9;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+#one .the_product div .price{
+  display: block;
+  font-size: 18px;
+  color: #000;
+  margin-top: 20px;
+}
+/* 下拉框 */
+.el-input__inner{
+  display: block;
+  border-radius: 20px;
+  text-align: center;
+  border-radius: 20px;
+  color: #fff;
+}
+.incar{
+  margin: 0 auto;
+  width: 260px;
+  text-align: center;
+  border-radius: 20px;
+  height: 30px;
+}
+.incar input{
+  background-color: black;
+  color: #fff;
+  width: 220px;
+  height: 36px;
+  cursor:pointer;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.incar input:hover{
+  background-color: rgb(255, 255, 255);
+  color: #000;
+  border: 1px solid black;
+}
+/* 两个主题入口 */
+.bigbanner{
+  margin-top: 80px;
+  width: 1320px;
+  margin-bottom: 80px;
+  height: 609px;
+}
+.bigbanner .left{
+  width: 505px;
+  height: 609px;
+  /* margin-left: 20px; */
+  /* margin-right: 60px; */
+  float: left;
+  /* background-color: #ccc; */
+}
+.bigbanner .left div{
+  font-size: 26px;
+}
+.bigbanner .left img{
+  width: 505px;
+}
+.bigbanner .left span{
+  display: block;
+  width: 505px;
+  margin-top: 12px;
+  font-size: 16px;
+  color: #010101;
+}
+
+.bigbanner .right{
+  width: 505px;
+  height: 609px;
+  margin-right: 150px;
+  float: right;
+  /* background-color: #ccc; */
+}
+.bigbanner .right div{
+  font-size: 26px;
+}
+.bigbanner .right img{
+  width: 505px;
+}
+.bigbanner .right span{
+  display: block;
+  width: 505px;
+  margin-top: 12px;
+  font-size: 16px;
+  color: #010101;
+}
+
+/* 新增 */
+.el-tabs__nav-scroll{
+  width: 250px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* .el-input--suffix .el-input__inner{
+  width: 120px;
+}
+.el-select .el-input__inner{
+  width: 120px;
+}
+.el-input--suffix .el-input__inner {
+  width: 120px;
+}
+.el-input__inner {
+width: 120px;
+} */
